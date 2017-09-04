@@ -17,7 +17,7 @@ namespace WebApplication3.Controllers
     {
         [HttpPost]
         public string fuck([FromBody]string name) {
-            return "老子love"+name;
+            return "love"+name;
         }
     }
 }
